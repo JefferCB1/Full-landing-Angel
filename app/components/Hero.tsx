@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import SplitText from "./ui/SplitText";
+
 import CustomForm from "./ui/CustomForm";
 import { motion } from "framer-motion";
 

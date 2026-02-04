@@ -29,7 +29,7 @@ const TestimonialCarousel = () => {
             >
                 {marqueeItems.map((item, idx) => (
                     <div key={idx} className="min-w-[300px] bg-white/5 border border-white/10 p-6 rounded-xl backdrop-blur-sm hover:border-iam-purple/50 transition-colors duration-300">
-                        <p className="text-gray-300 text-sm mb-6 italic">"{item.text}"</p>
+                        <p className="text-gray-300 text-sm mb-6 italic">&quot;{item.text}&quot;</p>
                         <div className="flex items-center space-x-3">
                             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-iam-purple to-iam-dark-purple flex items-center justify-center font-bold text-white text-xs">
                                 {item.name.charAt(0)}

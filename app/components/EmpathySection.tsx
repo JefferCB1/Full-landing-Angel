@@ -35,7 +35,7 @@ const EmpathySection = () => {
                         viewport={{ once: true }}
                         className="text-gray-400 text-lg leading-relaxed"
                     >
-                        Has comprado la mentira de los "embudos mágicos" y ahora tienes un sistema roto.
+                        Has comprado la mentira de los &quot;embudos mágicos&quot; y ahora tienes un sistema roto.
                         Leads fantasma que no contestan, agendas vacías y una facturación estancada mientras
                         trabajas el doble.
                     </motion.p>
@@ -48,7 +48,7 @@ const EmpathySection = () => {
                         className="pl-4 border-l-2 border-iam-purple"
                     >
                         <p className="text-white italic">
-                            "No es culpa de tu oferta. Es culpa de un modelo obsoleto que ya no funciona en 2026."
+                            &quot;No es culpa de tu oferta. Es culpa de un modelo obsoleto que ya no funciona en 2026.&quot;
                         </p>
                     </motion.div>
                 </div>
